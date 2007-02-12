@@ -1,6 +1,6 @@
 %define		fversion	%(echo %{version} |tr . _)
 Summary:	Finite-State Machine Library
-Summary(pl):	Biblioteka automatów skoñczonych
+Summary(pl.UTF-8):   Biblioteka automatÃ³w skoÅ„czonych
 Name:		fsm
 Version:	4.0
 Release:	1
@@ -21,15 +21,15 @@ the more familiar input label. Weighted acceptors or transducers are
 acceptors or transducers in which each transition has a weight as well
 as the input or input and output labels.
 
-%description -l pl
-Biblioteka FSM to zbiór narzêdzi ogólnego przeznaczenia dostêpnych dla
-Uniksa s³u¿±cych do budowania, ³±czenia, optymalizacji i
-przeszukiwania akceptorów i transduktorów wa¿onych o skoñczonej
-liczbie stanów. Transduktory skoñczone to automaty, dla których ka¿de
-przej¶cie ma etykietê wyj¶ciow± oprócz bardziej znanej etykiety
-wej¶ciowej. Akceptory i transduktory wa¿one to akceptory i
-transduktory, w których ka¿de przej¶cie ma wagê oprócz etykiety
-wej¶ciowej lub wej¶ciowej i wyj¶ciowej.
+%description -l pl.UTF-8
+Biblioteka FSM to zbiÃ³r narzÄ™dzi ogÃ³lnego przeznaczenia dostÄ™pnych dla
+Uniksa sÅ‚uÅ¼Ä…cych do budowania, Å‚Ä…czenia, optymalizacji i
+przeszukiwania akceptorÃ³w i transduktorÃ³w waÅ¼onych o skoÅ„czonej
+liczbie stanÃ³w. Transduktory skoÅ„czone to automaty, dla ktÃ³rych kaÅ¼de
+przejÅ›cie ma etykietÄ™ wyjÅ›ciowÄ… oprÃ³cz bardziej znanej etykiety
+wejÅ›ciowej. Akceptory i transduktory waÅ¼one to akceptory i
+transduktory, w ktÃ³rych kaÅ¼de przejÅ›cie ma wagÄ™ oprÃ³cz etykiety
+wejÅ›ciowej lub wejÅ›ciowej i wyjÅ›ciowej.
 
 %prep
 %setup -q
