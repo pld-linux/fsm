@@ -1,6 +1,6 @@
 %define		fversion	%(echo %{version} |tr . _)
 Summary:	Finite-State Machine Library
-Summary(pl.UTF-8):   Biblioteka automatów skończonych
+Summary(pl.UTF-8):	Biblioteka automatów skończonych
 Name:		fsm
 Version:	4.0
 Release:	1
